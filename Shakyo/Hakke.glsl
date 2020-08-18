@@ -30,7 +30,7 @@ float hex(vec2 st, float a, float b, float c, float d, float e, float f){
     if(ipos.y < 1.){
         return mix(box(fpos, vec2(.84, 1.)), box(fpos - vec2(.03, 0.), vec2(1.)), a);
     } else if(ipos.y < 2.){
-        return mix(box(fpos, vec2(.84, 1.)), box(fpos - vec2(.03, 0.), vec2(1.)), b);
+        return mix(box(fpos, vec2(.84, 1.)), box(fpos - vec2(.03, 0), vec2(1.)), b);
     } else if(ipos.y < 3.){
         return mix(box(fpos, vec2(.84, 1.)), box(fpos - vec2(.03, 0.), vec2(1.)), c);
     } else if(ipos.y < 4.){
